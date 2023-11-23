@@ -12,7 +12,7 @@
         /* Add styles for the Read More button */
         .read-more-btn {
             background-color: #ffebf5; /* Background color of the button */
-            color: #yourButtonTextColor; /* Text color */
+            color: #ffffff; /* Text color */
             padding: 10px 20px;
             border-radius: 50px; /* Round button */
             text-decoration: none;
@@ -60,15 +60,22 @@
     </div>
 
     <!-- Read More button with link to a new page -->
-    <a class="read-more-btn" href=./new-page.html">Read More</a>
+    <a class="read-more-btn" href="#" onclick="redirectToNewPage()">Read More</a>
 
     <div class="bottom-container">
         <a class="footer-link" href="https://discord.id/?prefill=1148526186562060348">Discord</a>
         <a class="footer-link" href="https://github.com/skYunii">GitHub</a>
         <span class="heart">❤</span>
         <a class="footer-link" href="https://www.youtube.com/channel/UCRcc14MUD6hzGjMhZdQE7WQ">YouTube</a>
-	 <a class="footer-link" href="https://discord.gg/hgH6zTNpA2">Server</a>
+        <a class="footer-link" href="https://discord.gg/swSEZ9QES8">Server</a>
     </div>
+
+    <script>
+        // Function to handle the redirect to new-page.html
+        function redirectToNewPage() {
+            window.location.href = "new-page.html";
+        }
+    </script>
 
 </body>
 
